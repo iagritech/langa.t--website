@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Langa.T – Rooted in Nature</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-lime-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-lime-600 text-white p-4 flex justify-between items-center">
+    <div class="flex items-center space-x-3">
+      <img src="logo.png" alt="Langa.T Logo" class="h-10 w-10 rounded-full" />
+      <h1 class="text-2xl font-bold">Langa.T</h1>
+    </div>
+    <nav class="space-x-4">
+      <a href="#about" class="hover:underline">About</a>
+      <a href="#products" class="hover:underline">Products</a>
+      <a href="#services" class="hover:underline">Services</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-lime-100 text-center py-12 px-4">
+    <h2 class="text-4xl font-bold text-green-800">Rooted in Nature, Growing the Future</h2>
+    <p class="mt-4 text-lg text-green-700">Empowering farmers and markets through agritech and sustainable farming.</p>
+    <img src="farm-banner.jpg" alt="Farm landscape" class="mx-auto mt-6 rounded-xl shadow-md max-w-4xl" />
+  </section>
+
+  <!-- About -->
+  <section id="about" class="p-8 bg-white">
+    <h3 class="text-2xl font-bold mb-4 text-green-800">About Langa.T</h3>
+    <p>Langa.T is an agritech-driven agricultural initiative based in Bomet, Kenya. We combine technology with traditional farming practices to create sustainable value chains. Our focus is not only on producing quality farm products but also on empowering farmers through contracts and access to extension services.</p>
+    <img src="about-farm.jpg" alt="About our farm" class="mt-4 rounded-lg shadow-sm w-full max-w-3xl mx-auto" />
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="p-8 bg-lime-50">
+    <h3 class="text-2xl font-bold mb-4 text-green-800">Our Products</h3>
+    <ul class="list-disc pl-5 space-y-2">
+      <li>Fresh Tomatoes</li>
+      <li>Spinach & Leafy Greens</li>
+      <li>Maize</li>
+      <li>Organic Eggs</li>
+      <li>Goats & Dairy Cows</li>
+    </ul>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+      <img src="product-tomato.jpg" alt="Tomatoes" class="rounded-md shadow" />
+      <img src="product-spinach.jpg" alt="Spinach" class="rounded-md shadow" />
+      <img src="product-eggs.jpg" alt="Eggs" class="rounded-md shadow" />
+    </div>
+  </section>
+
+  <!-- Extension & Contract Farming Services -->
+  <section id="services" class="p-8 bg-white">
+    <h3 class="text-2xl font-bold mb-4 text-green-800">Our Services</h3>
+    <p>We offer agricultural extension services including soil testing, agronomy advice, and livestock health support. Through our contract farming model, we partner with local farmers to produce targeted crops and livestock for specific markets, ensuring consistent demand and fair pricing.</p>
+    <img src="service-extension.jpg" alt="Farmer training" class="mt-4 rounded-lg shadow-sm w-full max-w-3xl mx-auto" />
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="p-8 bg-lime-100">
+    <h3 class="text-2xl font-bold mb-4 text-green-800">Contact Us</h3>
+    <p><strong>Email:</strong> <a href="mailto:iagritech100@gmail.com" class="text-blue-700">iagritech100@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+254715085783" class="text-blue-700">+254 715 085 783</a></p>
+    <p><strong>Location:</strong> Kipchamba Lane Street, Bomet, Kenya</p>
+    <p><strong>Working Hours:</strong> Monday – Friday, 8:00 AM – 5:00 PM</p>
+    <p><strong>Follow Us:</strong> Coming soon on Facebook, Instagram, and Twitter</p>
+    <img src="map-location.jpg" alt="Map to location" class="mt-4 rounded-md shadow w-full max-w-3xl mx-auto" />
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-lime-600 text-white text-center p-4 mt-8">
+    &copy; 2025 Langa.T – Empowering Farmers through Agritech.
+  </footer>
+
+</body>
+</html>
